@@ -18,22 +18,22 @@
 
         <form class="h3ms">
 
-            <h3>Digite a &nbsp; velocidade &nbsp;em m/s</h3>
+            <h3>Digite a velocidade em m/s</h3>
 
-            <input class="inputms" type="text" name="name" id="name" placeholder="Digite Aqui">
-            <p> Resultado: <span id="valor"></span> </p>
+            <input class="inputms" type="text" name="name" id="name">
+            <p><span id="recebe1"></span> </p>
 
         </form>
 
 
         <main>
-            <button class="btn" type="submit" id="send">Converter em km/h</button>
-            <button class="btn" type="Reset">Reset</button>
-            <button class="btn" type="submit">Voltar</button>
+            <button class="btn" type="submit" id="send" >Converter em Km/h</button>
+            <button class="btn" type="Reset" id="name" value="Limpar" onclick="limpar1()">Limpar</button>
+            <button class="btn" type="submit"  onclick="principal()">Voltar</button>
         </main>
 
 
     </div>
-
+    <script src="./roteiro.js" ></script>
 </body>
 </html>
