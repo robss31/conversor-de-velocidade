@@ -31,13 +31,13 @@ body {
 }
 
 h1, .h1km, .h1ms  {
-    margin-top:20px;
-    margin-bottom: 20px;
+    margin-top:80px;
+    margin-bottom: 10px;
 }
 
 .h3ms, .h3km {
-    margin-top:-30px;
-    margin-bottom: 55px;
+    margin-top:10px;
+    margin-bottom: 5px;
 
 }
 
@@ -53,19 +53,33 @@ h1, .h1km, .h1ms  {
     width: 835px;
     height: 300px;
     border-radius: 300% 300% 0px 0px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 
 }
 
 .inputms, .inputkm{
     width: 228px;
-    height: 22px;
+    height: 28px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+
+p {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(247, 6, 6);
+    appearance: hinder;
 }
 
 
 .btn {
     background-color: rgb(184, 184, 26);
-    margin-top: 40px;
+    margin-top: -80px;
+    margin-bottom: 80px;
     width: 200px;
     height: 40px;
     border-radius: 10px;

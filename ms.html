@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estilo.css">
-    <title>ms/s</title>
+    <title>m/s</title>
 </head>
 <body>
 
@@ -15,14 +15,19 @@
             <h1 class="h1km">CONVERSOR DE VELOCIDADE</h1>
             <img  src="./image/pexels-mike-bird-431950.jpg"  class="velocms" alt="">
         </header>
-        <div class="h3ms">
-            <h3>Digite a velocidade  em m/s</h3>
-            <input class="inputms" type="text" name="" id="" placeholder="Digite Aqui">
-        </div>
+
+        <form class="h3ms">
+
+            <h3>Digite a &nbsp; velocidade &nbsp;em m/s</h3>
+
+            <input class="inputms" type="text" name="name" id="name" placeholder="Digite Aqui">
+            <p> Resultado: <span id="valor"></span> </p>
+
+        </form>
 
 
         <main>
-            <button class="btn" type="submit">m/s => km/h</button>
+            <button class="btn" type="submit" id="send">Converter em km/h</button>
             <button class="btn" type="Reset">Reset</button>
             <button class="btn" type="submit">Voltar</button>
         </main>
