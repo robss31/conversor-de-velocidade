@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,18 +7,17 @@
 
 body {
     display: flex;
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     background: black;
-    padding: 10px;
-    padding: 30px;
+    padding: 40px;
     align-items: center;
     justify-content: center;
-  
-
 }
 
-.container, .containerkm, .containerms{
+.container,
+.containerkm,
+.containerms {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,21 +30,26 @@ body {
 }
 
 /* titulo pricipal (toda as paginas) */
-h1, .h1km, .h1ms  {
-    margin-top:80px;
+h1,
+.h1km,
+.h1ms {
+    margin-top: 80px;
     margin-bottom: 10px;
 }
 
 /*sub titulo das paginas secundarias*/
-.h3ms, .h3km {
-    margin-top:10px;
+.h3ms,
+.h3km {
+    margin-top: 10px;
     margin-bottom: 5px;
     font-size: 18px;
 
 }
+
 /* foto Principal */
 .veloc {
-    width: 835px;
+
+    width: 815px;
     height: 300px;
     border-radius: 300% 300% 0px 0px;
     margin-left: -0.5px;
@@ -53,16 +57,20 @@ h1, .h1km, .h1ms  {
     margin-bottom: 70px;
 
 }
+
 /* foto km/h e m/s*/
-.velockm, .velocms {
-    width: 835px;
+.velockm,
+.velocms {
+    width: 815px;
     height: 300px;
     border-radius: 300% 300% 0px 0px;
     margin-bottom: 0px;
 
 }
+
 /* campo de digitação das paginas secundarias */
-.inputms, .inputkm{
+.inputms,
+.inputkm {
     width: 230px;
     height: 38px;
     border-radius: 10px;
@@ -106,3 +114,105 @@ p {
     font-size: 20px;
 
 }
+
+@media (max-width: 1205px) and (min-width:550px) {
+
+    .veloc {
+        display: flex;
+        width: 100%;
+        height: 300px;
+    }
+
+    .container,
+    .containerkm,
+    .containerms {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        background-color: #247BA0;
+        border-radius: 10px;
+        margin-left: 80px;
+    }
+
+    .btnP {
+        background-color: #006494;
+        width: 200px;
+        height: 40px;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    .velockm,
+    .velocms {
+        width: 100%;
+        height: 200px;
+        border-radius: 300% 300% 0px 0px;
+        margin-bottom: 0px;
+
+    }
+
+}
+
+
+@media (max-width: 549px) and (min-width:300px) {
+
+    body {
+        display: flex;
+        width: 95%;
+        height: 95%;
+        background: black;
+        padding: 30px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 40px;
+        }
+        .veloc {
+            margin: 0 auto;
+            width: 100%;
+            height: 100%;
+        }
+
+        .btnP {
+            background-color: #006494;
+            margin-top: 30px;
+            margin-bottom: 40px;
+            width: 200px;
+            height: 40px;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 20px;
+        }
+
+        .container,
+        .containerkm,
+        .containerms {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            background-color: #247BA0;
+            border-radius: 10px;
+
+        }
+
+        .velockm,
+        .velocms {
+            width: 100%;
+            height: 200px;
+            border-radius: 300% 300% 0px 0px;
+            margin-bottom: 0px;
+
+        }
+    }
