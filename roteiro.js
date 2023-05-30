@@ -10,7 +10,7 @@ btn.addEventListener("click", function (e) {
 
     const converte = valor / 3.6 ;
 
-    document.getElementById("recebe").innerHTML= (converte.toFixed(2) + " m/s ");
+    document.getElementById("recebe").innerHTML= ("Resultado: "+ converte.toFixed(2) + " m/s ");
 
 })
 
@@ -26,7 +26,7 @@ btn2.addEventListener("click", function (e) {
 
     const converte1 = valor  * 3.6;
 
-    document.getElementById("recebe1").innerHTML= (converte1.toFixed(2) + " km/h ");
+    document.getElementById("recebe1").innerHTML= ("Resultado: " + converte1.toFixed(2) + " km/h ");
 
 })
 
