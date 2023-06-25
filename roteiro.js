@@ -32,12 +32,13 @@ btn2.addEventListener("click", function (e) {
 
 function principal(){
     window.location.replace("http://127.0.0.1:5500/index.html")
+     window.location.replace(" https://robss31.github.io/conversor-de-velocidade/km.html")
 }
 
 
 function  km() {
     window.location.replace("http://127.0.0.1:5500/km.html")
-    window.location.replace(" https://robss31.github.io/conversor-de-velocidade/km.html")
+    window.location.replace(" https://robss31.github.io/conversor-de-velocidade/")
 }
 
 function m() {
