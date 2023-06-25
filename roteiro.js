@@ -37,10 +37,12 @@ function principal(){
 
 function  km() {
     window.location.replace("http://127.0.0.1:5500/km.html")
+    window.location.replace(" https://robss31.github.io/conversor-de-velocidade/km.html")
 }
 
 function m() {
     window.location.replace("http://127.0.0.1:5500/ms.html")
+    window.location.replace(" https://robss31.github.io/conversor-de-velocidade/ms.html")
 }
 
 function limpar(){
